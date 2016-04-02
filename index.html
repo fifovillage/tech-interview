@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron green text-center">
+    <div class="container" id="mainTitle">
+      <h1><span class="glyphicon glyphicon-apple"></span> Best food ever!</h1>
+      <p>You might actually like it!</p>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="col-lg-10">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="col-sm-12 text-left">
+            <h3>Something</h3></div>
+          <div class="col-sm-6"><img class="img-responsive" src="img/food1.jpg"></div>
+          <div class="col-sm-6"><a class="btn btn-success" id="food1" onClick="addToCart(this.id)"><span class="glyphicon glyphicon-check"></span> buy now!</a>
+            <div class="price">$5</div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu justo sit amet tellus tincidunt viverra. Morbi tincidunt pellentesque massa. Donec ac malesuada leo</p>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="col-sm-12 text-left">
+            <h3>Salad</h3></div>
+          <div class="col-sm-6"><img class="img-responsive" src="img/food2.jpg"></div>
+          <div class="col-sm-6"><a class="btn btn-success" id="food2" onClick="addToCart(this.id)"><span class="glyphicon glyphicon-check"></span> buy now!</a>
+            <div class="price">$35</div>
+          </div>
+          <p>Nam suscipit mauris leo, nec tempor lacus maximus et. Morbi arcu elit, volutpat non varius maximus, mattis a massa. Ut sed tellus sit amet nisi suscipit ultrices vel a nisl. In dapibus lorem ut orci sagittis laoreet. Aenean dapibus condimentum
+            tortor, a lacinia metus sagittis nec. </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="col-sm-12 text-left">
+            <h3>Guacamole</h3></div>
+          <div class="col-sm-6"><img class="img-responsive" src="img/food3.jpg"></div>
+          <div class="col-sm-6"><a class="btn btn-success" id="food3" onClick="addToCart(this.id)"><span class="glyphicon glyphicon-check"></span> buy now!</a>
+            <div class="price">$3</div>
+          </div>
+          <p>Vivamus nisl ante, eleifend sed odio nec, varius tempus tortor. Integer nulla justo, pellentesque non augue at, tristique posuere est. Donec fringilla nisl et turpis laoreet gravida. Integer ut magna lacinia, malesuada diam nec, auctor lacus</p>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="col-sm-12 text-left">
+            <h3>Beans</h3></div>
+          <div class="col-sm-6"><img class="img-responsive" src="img/food4.jpg"></div>
+          <div class="col-sm-6"><a class="btn btn-success" id="food4" onClick="addToCart(this.id)"><span class="glyphicon glyphicon-check"></span> buy now!</a>
+            <div class="price">$8</div>
+          </div>
+          <p>Vivamus nisl ante, eleifend sed odio nec, varius tempus tortor. Integer nulla justo, pellentesque non augue at, tristique posuere est. Donec fringilla nisl et turpis laoreet gravida. Integer ut magna lacinia, malesuada diam nec, auctor lacus</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-2 text-center bordered">
+      <h4><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</h4>
+      <p id="items">empty</p>
+      <hr>
+      <p>Total: $<span id="total"></span></p>
+
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- /container -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+  </script>
+
+  <script src="js/vendor/bootstrap.min.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
